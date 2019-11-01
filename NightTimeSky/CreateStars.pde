@@ -16,12 +16,3 @@ void createStars() {
     stars[i] = new Star (xParameter, yParameter, radiusParameter);
     //Need to change "18"
   }
-  Boolean overlap = true;
-  Boolean checkAgain = true;
-  while (overlap == true && checkAgain == true) {
-    overlap = overlapCheck();
-    if (overlap = false) {
-      checkAgain = overlapCheck();
-    }
-  }
-} //End createStars()
